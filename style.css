@@ -1,0 +1,251 @@
+/*generl*/
+body {
+    margin: 0px; padding: 0px;   height: 100%; position: relative; font-size: 14px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+html { height: 100%; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+.main {
+    min-height: 100%;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.header{
+    width: 100%;
+    margin: 0;
+    position: relative;
+    min-height: 50px;
+}
+.container{
+    margin: 0 auto;
+    width: 74%;
+    text-align: center;
+    max-width: 1300px;
+}
+.open-close-menu{
+    display: none;
+}
+.top-menu{
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+   text-align: center;
+}
+.nav{
+    display: inline-block;
+    margin: 0 auto;
+}
+.nav li{
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+.nav li a{
+    color: #000;
+}
+.nav li a:hover{
+    color: #ED241A;
+}
+.heder-cont-center{
+    width: 73%;
+    margin: 0 auto;
+    padding: 15px 0 30px 0;
+    display: table;
+}
+.logo{
+    margin: 15px 25px;
+}
+.color-red{
+    color: white;
+    background-color: #ED241A;
+    border-top-left-radius: 25px 20px;
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 20px 20px;
+    border-bottom-left-radius: 10px 10px;
+    padding: 5px 10px;
+    font-size: 46px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.color-orange{
+    color:#ED241A;
+    margin: 0 5px;
+}
+.logo{
+    float: left;
+}
+.color-aqua{
+    color: #00B0DD;
+}
+.heder-block{
+    float: left;
+    line-height: 10px;
+    margin: 0 2%;
+}
+.block-text{
+
+
+}
+.block-right{
+    float: right;
+}
+.add-cors{
+    color: #ED241A;
+    font-size: 14px;
+}
+.add-cors-black{
+    color: black;
+    font-size: 12px;
+}
+.bot-menu{
+    width: 74%;
+    margin: 0 13%;
+    margin-top: -20px;
+    display: block;
+    position: absolute;
+    background-color: #ED241A;
+    border-radius: 3px;
+    z-index: 55;
+}
+.bottom-nav{
+    margin: 0;
+    padding: 0;
+}
+.bottom-nav li{
+    float: left;
+    text-align: center;
+    padding: 13px 15px;
+    position: relative;
+    display: block;
+}
+.bottom-nav li:after{
+    content: '';
+    border-right: 2px solid rgba(255, 39, 27, 0.74);
+}
+.bottom-nav li a{
+   color: white;
+}
+
+/*clients*/
+
+
+
+
+
+
+.content{
+    margin-top: -50px;
+}
+/*slider*/
+.slick-slide{
+    width: 100%;
+    margin-top: -20px;
+    padding: 0;
+    background-color: black;
+}
+.slick-prev, .slick-next {
+    top:110%!important;
+    margin: 0 auto;
+    z-index: 1001;
+    transition: all .5s;
+    height: 30px!important;
+    width: 30px!important;
+    padding-bottom: 10px!important;
+}
+.slick-prev{
+    left:calc(50% - 40px)!important;
+}
+.slick-next{
+    right: calc(50% - 40px)!important;
+}
+.slick-prev:hover:before , .slick-next:hover:before{
+    color: black!important;
+}
+.slick-prev:before, .slick-next:before{
+    font-size: 25px!important;
+    font-weight: bold;
+    line-height: 0.9!important;
+    color: #dc3113!important;
+}
+.sl-slide{
+    margin-top: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+
+.cont-img{
+    width: 100%;
+    height: 100%;
+}
+
+.general-img{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+/*slider*/
+
+
+/*goods*/
+.goods {
+    width: 100%;
+    /*background-color: lightgray;*/
+}
+.product-heading   {
+    width: 100%;
+    background-color: lightgray;
+    padding: 0 0 0 0%;
+    margin: 20px 0 390px 0;
+}
+.txt {
+    font-weight: bold;
+    padding: 5px 0 5px 15px;
+}
+.goods-1 {
+    width:32.7%;
+    position: relative;
+    float: left;
+    margin-left: 0.5%;
+}
+.img {
+    width: 100%;
+    height: 291px;
+}
+.img-1 {
+    background: url("images/img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-2 {
+    background: url("images/img-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-3 {
+    background: url("images/img-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.goods-2 {
+    width:32.7%;
+    position: relative;
+    float: left;
+    margin-left: 0.5%;
+    background-color: lightgray;
+    padding: 17px 0 17px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.img-u {
+    width: 100%;
+    height: 302px;
+}
+
+/*goods*/
